@@ -15,5 +15,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "src"), // Alias for the "src" directory
     },
   },
-  base: mode === "production" ? "/repo-name/" : "/", // Update 'repo-name' with your GitHub repository name
+  base: mode === "production" ? "/Todo/" : "/", 
 }));
